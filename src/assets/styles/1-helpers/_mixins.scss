@@ -1,0 +1,21 @@
+
+@mixin on-hover-blue {
+    color: $blue-color;
+}
+
+@mixin on-hover-blue-bg {
+    background-color: $blue-color;
+}
+
+@mixin on-hover-yellow {
+    color: $yellow-color2;
+}
+
+@mixin on-hover-yellow-bg {
+    background-color: $yellow-color1;
+}
+
+@mixin on-hover-orange-bg {
+    background-color: $dark_orange-color1;
+}
+

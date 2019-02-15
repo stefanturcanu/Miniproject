@@ -1,0 +1,67 @@
+.banner-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+
+  img{
+    width:100%;
+  }
+  &__headline {
+    float: right;
+    margin-top: 0.2em;
+    margin-right: 0em;
+    width: 50%;
+    position: absolute;
+
+    h1 {
+      color: $yellow-color2;
+      font-size: 2.5em;
+      text-transform: capitalize;
+      line-height: 1em;
+    }
+    p {
+      color: $yellow-color2;
+      font-size: 1em;
+      line-height: 1,2em;
+      width: 60%;
+    }
+    a {
+      display: inline-block;
+      background: $yellow-color2;
+      padding: 15px 25px 13px;
+      color: #000;
+      font-size: 1em;
+      line-height: 18px;
+      text-transform: capitalize;
+      font-weight: 800;
+      text-align: left;
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      -moz-transition: 0.2s;
+      -o-transition: 0.2s;
+      margin-top: 2em;
+      text-decoration: none;
+      cursor: pointer;
+
+      &:hover {
+       
+      border: none;
+      @include on-hover-blue
+      }
+    }
+
+    .slider-btn {
+      width: 8%;
+      border: none;
+      float: right;
+      padding: 14px 0;
+
+      &:hover{
+        @include on-hover-yellow-bg
+
+      }      
+    }
+  }
+}

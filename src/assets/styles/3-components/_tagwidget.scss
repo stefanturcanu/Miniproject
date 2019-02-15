@@ -1,0 +1,47 @@
+.tagsbar-wrapper {
+  background-color:#fff;
+  padding: 40px;
+  margin-top: 16%;
+  margin-bottom: auto;
+
+  h3 {
+    font-style: italic;
+    font-weight: 800;
+    
+  }
+
+  ul {
+
+    li {
+      display: flex;
+      padding: 8px 5px 0 0;
+      list-style-type: none;
+      display: inline-block; 
+      font-weight: 800;
+     
+      button {
+        background-color: $light_grey-color;
+                
+      }
+
+      :hover {
+        @include on-hover-yellow-bg;
+        color: #000;
+      
+    }
+    }
+  }
+}
+
+.viewalltags {
+  font-style: italic;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000;  
+  margin-top: 20px;
+  display: block;
+
+  &:hover {
+    @include on-hover-yellow;
+  }
+}

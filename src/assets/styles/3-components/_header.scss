@@ -1,0 +1,98 @@
+nav {
+  background-color: $blue-color;
+  .header-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    .main-logo {
+      margin-left: 75px;
+    }
+
+    .basket-wrapper {
+      .login {
+        display: flex;
+        flex: wrap;
+        background-color: #fff;
+        justify-content: space-evenly;
+
+        button {
+          background-color: #fff;
+          border: none;
+          color: $orange-color;
+          font-weight: 500;
+          width: 50%; 
+        }
+      }
+
+      .basket {
+        background-color: $orange-color;
+        padding: 15px 30px;
+        display: flex;
+
+        .details {
+          padding: 0 20px;
+
+          .detailsprice {
+            color: #fff;
+            font-size: 20px;
+          }
+
+          .detailsitem {
+            color: $yellow-color1;
+          }
+        }
+      }
+
+      .checkout {
+        display: flex;
+        flex: wrap;
+      
+        .checkout-viewcart {
+          background-color: $dark_orange-color2;
+          color: #fff;
+          border: none;
+          border-radius: none;
+          font-weight: 500;
+          width: 50%;
+         
+        }
+        .checkout-checkout {
+          background-color: $dark_orange-color1;
+          color: #fff;
+          border: none;
+          border-radius: none;
+          font-weight: 500;
+          width: 50%;
+        }
+      }
+
+      .search-container {
+
+        width: 100%;
+        form {
+          input {
+            border: none;
+            border-radius: none;
+            width: 85%;
+            padding: 6px;
+            
+          }
+
+          button {
+            border: none;
+            border-radius: none;
+            width: 15%;
+            padding: 6px;
+            background-color :#000;
+            color: #fff;
+                                          
+          } 
+        }
+      }
+    }
+  }
+}

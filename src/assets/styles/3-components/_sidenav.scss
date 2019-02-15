@@ -1,0 +1,52 @@
+.sidebar-wrapper {
+  background-color: $blue-color;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: auto;
+  justify-self: auto;
+  margin-bottom: auto;
+
+  .menu_button  {
+    display: flex;
+    background-color: $dark_grey-color;
+    color: #fff;
+    text-align: start;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    width: 100%;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      display: block;
+      inline-size: 100%;
+
+      position: relative;
+      text-transform: capitalize;
+
+      :hover {
+        color: #fff;
+        background-color: $dark_grey-color;
+        display: block;
+        border: 150px;
+        inline-size: 100%;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+        padding: 12px 30px;
+      }
+    }
+  }
+}
